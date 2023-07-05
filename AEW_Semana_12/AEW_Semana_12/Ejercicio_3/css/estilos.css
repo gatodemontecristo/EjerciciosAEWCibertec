@@ -1,0 +1,14 @@
+img.transformacion{
+    border: blue 1px solid;
+    width: 137px;
+    height: 180px;
+        /* Firefox */
+        -moz-transition: all 1000ms ease-in-out;
+        /* chrome / safari */
+        -webkit-transition: all 1000ms ease-in-out;
+        /* default */
+        transition: all 1000ms ease-in-out;
+}
+img.transformacion:hover{
+    transform: scale(1.5, 1.5);
+}

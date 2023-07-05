@@ -1,0 +1,183 @@
+* {
+	margin: 0;
+	border: 0;
+    padding: 0;
+}
+body {
+	background-color: orange;
+}
+#contenedor {
+	width: 95%;
+	margin: 30px auto;
+}
+
+/*  header  */
+header {
+	background-color: beige;
+}
+header h1 {
+	padding: 20px;
+	text-align: center;
+	color: chocolate;
+}
+header img {
+	width: 100%;
+	vertical-align: bottom;
+}
+
+/*  nav  */
+nav {
+	background-color: yellow;
+}
+nav a {
+	padding: 10px;
+	text-decoration: none;
+	color: green;
+	display: inline-block;
+}
+
+/*  main  */
+main {
+	display: flex;
+}
+
+/*  aside */
+aside {
+	width: 25%;
+	padding: 20px;
+	background-color: antiquewhite;
+}
+
+/*  aside izquierda  */
+aside h3 {
+	padding: 20px 0px;
+}
+aside a {
+	padding: 5px 0px;
+	display: block;
+	color: firebrick;
+}
+
+/*  aside derecha  */
+aside img {
+	width: 70%;
+	margin: 20px auto;
+	display: block;
+}
+
+/*  section  */
+section {
+	width: 50%;
+	padding: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: white;
+}
+section figure {
+	width: 30%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid blue;
+}
+section figure img {
+	width: 80%;
+	margin: 10px auto;
+	display: block;
+}
+section figure figcaption {
+	margin: 10px;
+	text-align: center;
+}
+
+/*  footer  */
+footer {
+	padding: 10px;
+	text-align: center;
+	background-color: green;
+}
+footer p {
+	margin-bottom: 10px;
+	color: white;
+}
+h1{
+    text-align: center;
+}
+img{
+    width: 137px;
+    height: 180px;
+}
+.rotationY{
+    transform: rotateY(0deg);
+    transition: all ease 2500ms;
+}
+.rotationY:hover{
+    transform: rotateY(360deg);
+    transition: all ease 5000ms;
+}
+.rotationX{
+    transform: rotateX(0deg);
+    transition: all ease 2500ms;
+}
+.rotationX:hover{
+    transform: rotateX(360deg);
+    transition: all ease 2500ms;
+}
+img.transformacion{
+    border: blue 1px solid;
+    width: 90px;
+    height: 180px;
+        /* Firefox */
+        -moz-transition: all 1000ms ease-in-out;
+        /* chrome / safari */
+        -webkit-transition: all 1000ms ease-in-out;
+        /* default */
+        transition: all 1000ms ease-in-out;
+}
+img.transformacion:hover{
+    transform: scale(1.5, 1.5);
+}
+img.transicion{
+    border: blue 1px solid;
+    width: 90px;
+    height: 180px;
+    /* Firefox */
+    -moz-transition-property: all;
+    -moz-transition-duration: 1000ms;
+    -moz-transition-timing-function: ease;
+    -moz-transition-delay: 100ms;
+    /* chrome / safari */
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 1000ms;
+    -webkit-transition-timing-function: ease;
+    -webkit-transition-delay: 100ms;
+    /* default */
+    transition-property: all;
+    transition-duration: 1000ms;
+    transition-timing-function: ease;
+    transition-delay: 100ms;
+}
+img.transicion:hover{
+    border: red 2px solid;
+    width: 80px;
+    height: 60px;
+}
+p.animacion{
+    font-size: 15px;
+    color: blue;
+    background-color: aqua;
+    text-align: center;
+    width: 80px;
+    height: auto;
+    /*firefox */
+    -moz-transition: font size 1000ms linear 0s;
+    /* chrome / safari */
+    -webkit-transition: font size 1000ms linear 0s;
+    /* default */
+    transition: font size 1000ms linear 0s;;
+}
+p.animacion:hover{
+    font-size: 30px;
+    color: red;
+}
