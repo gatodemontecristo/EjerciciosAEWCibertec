@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    border: 0px;
+}
+body {
+    background-color:chocolate;
+}
+#contenedor {
+    width: 95%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+header {
+background-color: beige;
+}
+header h1 {
+    padding: 7px;
+    text-align: center;
+    color: chocolate;
+}
+header img {
+    width: 100%;
+    vertical-align: bottom;
+}
+nav {
+background-color: rgb(254, 213, 2);
+}
+nav a {
+    padding: 11px;
+    display:inline-block;
+    color: red;
+}
+main {
+    display: flex;
+}
+aside {
+    width: 25%;
+    padding: 12px;
+    background-color: antiquewhite;
+}
+aside h2 {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+    color: blue;
+}
+aside p {
+    text-align: justify;
+    margin: 0px;
+}
+aside ul {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-right: 0px;
+    padding-left: 18px;
+}
+aside ol {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-right: 0px;
+    padding-left: 18px;
+}
+aside img {
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+section {
+    width: 50%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    background-color: white;
+}
+section figure {
+    width: 45%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+section figure img {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+section figure figcaption {
+    margin: 12px;
+    text-align: center;
+    color: green;
+}
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color: green;
+}
+footer {
+    margin: 0px;
+    color: white;
+}
